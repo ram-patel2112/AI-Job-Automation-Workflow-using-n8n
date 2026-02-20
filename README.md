@@ -1,26 +1,27 @@
 🚀 AI-Powered Job Application Assistant
 Automated Resume Generation & Job Workflow using n8n
+
 📌 Overview
 
 This project is an AI-driven job application automation system built using n8n.
 
 It allows users to interact through messaging platforms such as:
 
-WhatsApp
+✅ WhatsApp
 
-Discord
+✅ Discord
 
 The system automatically:
 
-Collects user details
+✅ Collects user details
 
-Generates ATS-friendly resumes
+✅ Generates ATS-friendly resumes
 
-Searches for relevant job opportunities
+✅ Searches for relevant job opportunities
 
-Logs applications
+✅ Logs applications
 
-Sends confirmation notifications
+✅ Sends confirmation notifications
 
 All processes are fully automated through an event-driven workflow.
 
@@ -45,165 +46,166 @@ All processes are fully automated through an event-driven workflow.
 
 Triggers:
 
-WhatsApp Trigger
+✅ WhatsApp Trigger
 
-Discord Bot Trigger
+✅ Discord Bot Trigger
 
 Users provide:
 
-Name
+✅ Name
 
-Skills
+✅ Skills
 
-Experience
+✅ Experience
 
-Education
+✅ Education
 
-Target Job Role
+✅ Target Job Role
 
 2️⃣ AI Processing Layer
 
 The workflow uses:
 
-Groq (LLaMA 3.1 model)
+✅ Groq (LLaMA 3.1 model)
 
-LangChain Agent inside n8n
+✅ LangChain Agent inside n8n
 
 Capabilities:
 
-Structured data extraction
+✅ Structured data extraction
 
-Resume content generation
+✅ Resume content generation
 
-Job query understanding
+✅ Job query understanding
 
-ATS-friendly formatting
+✅ ATS-friendly formatting
 
 3️⃣ Resume Generation Layer
 
-HTML resume template generation
+✅ HTML resume template generation
 
-Automatic PDF conversion
+✅ Automatic PDF conversion
 
-Dynamic file naming
+✅ Dynamic file naming
 
 4️⃣ Data Persistence Layer
 
 Integrated with:
 
-Google Sheets
+✅ Google Sheets
 
 Used for:
 
-Storing user profiles
+✅ Storing user profiles
 
-Logging job applications
+✅ Logging job applications
 
-Tracking submission status
+✅ Tracking submission status
 
 5️⃣ Notification Layer
 
-Email confirmation via Gmail integration
+✅ Email confirmation via Gmail integration
 
-Platform-based response routing:
+✅ Platform-based response routing:
 
-WhatsApp reply
+✅ WhatsApp reply
 
-Discord message response
+✅ Discord message response
 
 🛠 Technologies Used
 
-n8n (Workflow Automation)
+✅ n8n (Workflow Automation)
 
-WhatsApp API
+✅ WhatsApp API
 
-Discord Bot API
+✅ Discord Bot API
 
-Groq LLaMA 3.1
+✅ Groq LLaMA 3.1
 
-LangChain Agent
+✅ LangChain Agent
 
-Google Sheets API
+✅ Google Sheets API
 
-Gmail API
+✅ Gmail API
 
-HTTP Request Nodes
+✅ HTTP Request Nodes
 
-SerpAPI (Job Search Integration)
+✅ SerpAPI (Job Search Integration)
 
 🔄 End-to-End Flow
 
-User sends job profile via WhatsApp or Discord
+✅ User sends job profile via WhatsApp or Discord
 
-System extracts structured data
+✅ System extracts structured data
 
-AI generates resume content
+✅ AI generates resume content
 
-Resume is converted to PDF
+✅ Resume is converted to PDF
 
-Job search is executed
+✅ Job search is executed
 
-Application data is logged
+✅ Application data is logged
 
-Confirmation email is sent
+✅ Confirmation email is sent
 
-User receives response on the original platform
+✅ User receives response on the original platform
 
 📊 System Design Highlights
 
-Event-driven automation
+✅ Event-driven automation
 
-Multi-channel input handling
+✅ Multi-channel input handling
 
-AI-agent orchestration
+✅ AI-agent orchestration
 
-Structured output parsing
+✅ Structured output parsing
 
-API-based integrations
+✅ API-based integrations
 
-Automated document generation
+✅ Automated document generation
 
 ⚙️ Setup Instructions
 
-Install n8n
+✅ Install n8n
 
-Import the provided JSON workflow file
+✅ Import the provided JSON workflow file
 
-Configure the following credentials:
+✅ Configure the following credentials:
 
-WhatsApp API
+✅ WhatsApp API
 
-Discord Bot API
+✅ Discord Bot API
 
-Groq API
+✅ Groq API
 
-Google Sheets OAuth
+✅ Google Sheets OAuth
 
-Gmail OAuth
+✅ Gmail OAuth
 
-SerpAPI
+✅ SerpAPI
 
-Activate the workflow
+✅ Activate the workflow
 
 🔐 Security Note
 
-Credentials and API keys are not included in this repository.
-You must configure your own credentials inside n8n before running the workflow.
+✅ Credentials and API keys are not included in this repository.
+
+✅ You must configure your own credentials inside n8n before running the workflow.
 
 🚀 Why This Project Matters
 
 This project demonstrates:
 
-Real-world AI integration
+✅ Real-world AI integration
 
-Backend automation logic
+✅ Backend automation logic
 
-API orchestration
+✅ API orchestration
 
-Resume optimization
+✅ Resume optimization
 
-Multi-platform messaging automation
+✅ Multi-platform messaging automation
 
-Event-driven system design
+✅ Event-driven system design
 
 It simulates a production-level AI job assistant.
