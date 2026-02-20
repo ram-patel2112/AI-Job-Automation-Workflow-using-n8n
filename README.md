@@ -10,16 +10,34 @@ WhatsApp
 
 Discord
 
-The system collects user details, generates ATS-friendly resumes, searches for jobs, logs applications, and sends confirmation notifications — all automatically.
+The system:
+
+Collects user details
+
+Generates ATS-friendly resumes
+
+Searches for relevant jobs
+
+Logs applications automatically
+
+Sends confirmation notifications
+
+All fully automated.
 
 🎯 Key Features
 
 ✅ Event-driven architecture (WhatsApp & Discord triggers)
+
 ✅ AI-powered resume generation
+
 ✅ Job search integration via API
+
 ✅ Automatic PDF resume creation
+
 ✅ Google Sheets logging (user profiles & applications)
+
 ✅ Email confirmation system
+
 ✅ Multi-platform response routing
 
 🏗 Workflow Architecture
@@ -85,7 +103,7 @@ Tracking submission status
 
 Email confirmation via Gmail integration
 
-Platform-based response routing
+Platform-based response routing:
 
 WhatsApp reply
 
@@ -93,7 +111,7 @@ Discord message response
 
 🛠 Technologies Used
 
-n8n (Workflow Automation)
+n8n
 
 WhatsApp API
 
@@ -109,11 +127,11 @@ Gmail API
 
 HTTP Request Tools (Job Board API)
 
-SerpAPI (Job search integration)
+SerpAPI
 
 🔄 End-to-End Flow
 
-User sends job profile via WhatsApp/Discord
+User sends job profile via WhatsApp or Discord
 
 System extracts structured data
 
